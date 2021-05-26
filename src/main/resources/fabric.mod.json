@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "psycasts",
+  "version": "${version}",
+
+  "name": "Psycasts",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Aurnir"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/Aurnir/Psycasts"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/psycasts/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.aurnir.psycasts.Psycasts"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
